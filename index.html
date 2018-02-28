@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Test tech Dolist</title>
+
+        <script src="node_modules/angular/angular.js"></script>
+        <script src="app.js"></script>
+        <script src="controllers/mainController.js"></script>
+    </head>
+
+    <body ng-app="app">
+        
+        <div  ng-controller="mainController">
+                <div ng-repeat="obj in objects">
+                    {{obj.headerLocation}}
+                </div>
+        </div>
+
+    </body>
+</html> 
