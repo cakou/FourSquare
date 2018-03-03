@@ -1,0 +1,20 @@
+﻿{
+  "name": "admin",
+  "version": "1.0.0",
+  "description": "site carole",
+  "main": "index.js",
+  "scripts": {},
+ "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlienoDev/"
+  },
+  "homepage": "https://github.com/AlienoDev/",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.5",
+    "angular": "^1.6.5",
+    "angular-animate": "^1.6.5",
+    "angular-resource": "^1.6.5",
+    "angularjs-scroll-glue": "^2.2.0",
+    "materialize-css": "^0.99.0"
+  }
+}
