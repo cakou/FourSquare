@@ -1,20 +1,22 @@
 ﻿{
-  "name": "admin",
+  "name": "foursquare",
   "version": "1.0.0",
-  "description": "site carole",
+  "description": "Test technique",
   "main": "index.js",
-  "scripts": {},
- "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AlienoDev/"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/AlienoDev/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cakou/FourSquare.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cakou/FourSquare/issues"
+  },
+  "homepage": "https://github.com/cakou/FourSquare#readme",
   "dependencies": {
-    "@uirouter/angularjs": "^1.0.5",
-    "angular": "^1.6.5",
-    "angular-animate": "^1.6.5",
-    "angular-resource": "^1.6.5",
-    "angularjs-scroll-glue": "^2.2.0",
-    "materialize-css": "^0.99.0"
+    "express": "^4.16.2"
   }
 }
