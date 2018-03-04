@@ -36,7 +36,7 @@ this.sendKey = (event) => {
             ll: '40.7243,-74.0018',
             // query: 'coffee',
             v: '20170801',
-            limit: 10
+            limit: 100
         }
         }).then((response) => {
         let array = []
