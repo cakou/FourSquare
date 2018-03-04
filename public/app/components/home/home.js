@@ -34,9 +34,9 @@ this.sendKey = (event) => {
             client_id: 'MPWTYZP1FUBZBPMTQAUSXS4XP2ZMG3RHDYDLQC12YYSOXBDL',
             client_secret: '43A1LQFCBGZVRETF212QZMSIBA5IVPHXBS3NXI4G5VSEHNO3',
             ll: '40.7243,-74.0018',
-            // query: 'coffee',
+            query: this.query,
             v: '20170801',
-            limit: 100
+            limit: 50
         }
         }).then((response) => {
         let array = []
