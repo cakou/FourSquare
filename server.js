@@ -5,4 +5,4 @@ const
 
 app.use(express.static("./public"))
     .listen(port);
-console.log('The magic happens on port ' + port);
+console.log('Le serveur démarre sur le port ' + port);

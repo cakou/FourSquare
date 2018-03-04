@@ -1,0 +1,50 @@
+body {
+    background-color: #f2f2f2;
+}
+
+#title h1 {
+    text-align: center;
+    font-family: 'Inconsolata';
+    color: #1E2A2D;
+}
+
+#input {
+    margin-left: 2%;
+    width: 30%;
+}
+
+
+
+/*   -----   CARD   -----     */
+
+
+.card.horizontal {
+    background-color: #1E2A2D;
+}
+
+.card .card-content {
+    padding: 10px !important;
+}
+
+h2 {
+    font-family: 'Inconsolata';
+    font-size: 1.8em !important;
+    line-height: 110%;
+    margin: 1rem 0 1rem 0 !important;
+    color: #f2f2f2;
+}
+
+p {
+    font-family: 'Inconsolata';
+    font-size: 1.2em;
+    color: #ABACAB !important;
+}
+
+.card .card-action {
+    margin: 20px !important;
+    padding: 5px 5px 0 5px !important;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+    color: #f2f2f2 !important;
+}
