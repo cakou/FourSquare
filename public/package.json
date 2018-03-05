@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/cakou/FourSquare#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "@uirouter/angularjs": "^1.0.5",
+    "angular": "^1.6.5",
+    "angular-animate": "^1.6.5",
+    "angular-resource": "^1.6.5",
+    "materialize-css": "^0.99.0"
   }
 }
