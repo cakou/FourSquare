@@ -1,25 +1,22 @@
-{
-    "name": "helpangular",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "npm i && sudo mongod && cd public && npm i && cd .. && node server.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/JulienLeotier/HelpAngular.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/JulienLeotier/HelpAngular/issues"
-    },
-    "homepage": "https://github.com/JulienLeotier/HelpAngular#readme",
-    "dependencies": {
-        "body-parser": "^1.18.2",
-        "express": "^4.16.2",
-        "mongoose": "^4.4.20"
-    }
+﻿{
+  "name": "foursquare",
+  "version": "1.0.0",
+  "description": "Test technique",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cakou/FourSquare.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cakou/FourSquare/issues"
+  },
+  "homepage": "https://github.com/cakou/FourSquare#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
