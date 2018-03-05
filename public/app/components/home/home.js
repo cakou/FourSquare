@@ -29,6 +29,7 @@ function Home($http) {
 
 this.sendKey = (event) => {
     if (event.which === 13) {
+        this.search = this.query;
         this.messageerreur = false;
         $http.get('https://api.foursquare.com/v2/venues/explore', {
         params: {
@@ -48,7 +49,6 @@ this.sendKey = (event) => {
             this.venues = array
             if (this.venues.length == 0) {
                 this.messageerreur = true;
-                this.search = this.query;
             }
         })
         this.query = "";       
