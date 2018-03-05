@@ -25,9 +25,11 @@ function Home($http) {
         this.venues = array
     })
 
+    this.messageerreur = false;
 
 this.sendKey = (event) => {
     if (event.which === 13) {
+        this.messageerreur = false;
         $http.get('https://api.foursquare.com/v2/venues/explore', {
         params: {
             client_id: 'MPWTYZP1FUBZBPMTQAUSXS4XP2ZMG3RHDYDLQC12YYSOXBDL',
@@ -35,7 +37,7 @@ this.sendKey = (event) => {
             ll: '40.7243,-74.0018',
             query: this.query,
             v: '20170801',
-            limit: 100
+            limit: 10
         }
         }).then((response) => {
         let array = []
@@ -44,8 +46,12 @@ this.sendKey = (event) => {
         }
         console.log(array)
             this.venues = array
-            })
-            this.query = "";       
+            if (this.venues.length == 0) {
+                this.messageerreur = true;
+                this.search = this.query;
+            }
+        })
+        this.query = "";       
     }
 }
 }

@@ -4,7 +4,9 @@
 
 <div id="input">
     <input type="text" ng-model="$ctrl.query" ng-value="$ctrl.query" name="query" placeholder="Saisissez vos mots-clés..." ng-keypress="$ctrl.sendKey($event)">
+    <p ng-show="$ctrl.messageerreur">Il n'y a pas de résultat disponible pour {{$ctrl.search}}</p>
 </div>
+
 
 <div class="row">
     <div class="col s12 m6" ng-repeat="venue in $ctrl.venues track by $index"> 
